@@ -39,3 +39,5 @@ var renderCommits = (data) => {
 var renderCommit = (commit) => {
   return `<li><h3>${commit.sha}</h3><p>${commit.commit.message}</p></li>`;
 }
+
+var displayError = () => $('#errors').html("I'm sorry, there's been an error. Please try again.");
