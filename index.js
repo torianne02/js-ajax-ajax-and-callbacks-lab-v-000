@@ -9,3 +9,5 @@ var searchRepositories = () => {
     displayError()
   })
 }
+
+var renderSearchResults = (data) => data.items.map(result => renderSearchResult(result))
